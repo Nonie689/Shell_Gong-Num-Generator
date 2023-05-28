@@ -1,0 +1,46 @@
+GO8-Gong broadcasting algorithm order
+
+Algorithm steps of broadcast, GO8-Gong broadcasting too!
+
+
+1. Correct Timestamp
+
+2. Generate transmittion content
+
+3. Choose broadcasting prearranged frequence
+
+4. Send start signal sound on this frequence
+  -- Repeat this, 240 seconds
+
+5. ** Send start seperation sound [Achtung]
+   ** Pause
+   ** Send the identification number of the Agent (5 numbers)
+   ** Pause
+   ** Send seperation sound [Trennung]
+   ** Pause
+   ** Send the total number of blocks
+
+   -- Repeat this
+
+   [Next step] Pause 750 msec onetime
+
+   ** Send start seperation sound
+   ** Pause
+   ** Send the identification number of the Agent (5 numbers)
+   ** Pause
+   ** Send seperation sound [Trennung]
+   ** Pause
+   ** Send the total number of blocks
+   ---------------------------------------------------
+   ## Additional next step, differences after this ##
+   --------------------------------------------------
+   * Pause
+   * Send encrypted number blocks [Pause 350 msec between each block content]
+   * Pause
+   * Send seperation sound [Trennung]
+  
+   -- Repeat this
+
+   [End step] Pause 750 msec onetime
+
+   * Finally send the same seperation sound from start [Achtung]
